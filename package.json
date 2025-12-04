@@ -1,0 +1,21 @@
+{
+  "name": "theme-bylazar-com",
+  "displayName": "Lazar's Theme",
+  "description": "The theme used by Lazar.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.106.1"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Lazar's Theme Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Lazar's Theme Dark-color-theme.json"
+      }
+    ]
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "name": "Lazar's Dark Theme",
+  "name": "Lazar's Dark Theme Refined",
   "type": "dark",
   "colors": {
     "foreground": "#eeeeee",
@@ -11,9 +11,9 @@
     "activityBar.background": "#111111",
     "activityBar.border": "#1a1e2a",
     "activityBar.inactiveForeground": "#ffffff66",
-    "activityBarBadge.foreground": "#ffffff",
-    "activityBarBadge.background": "#008b80",
-    "sideBar.background": "#111111",
+    "activityBarBadge.foreground": "#111111",
+    "activityBarBadge.background": "#00e2b9",
+    "sideBar.background": "#0e0e0e",
     "sideBar.foreground": "#cccccc",
     "sideBar.border": "#1a1e2a",
     "sideBarSectionHeader.background": "#111111",
@@ -24,18 +24,18 @@
     "list.inactiveSelectionForeground": "#bbbbbb",
     "list.hoverBackground": "#1a1a1a",
     "list.hoverForeground": "#ffffff",
-    "list.activeSelectionBackground": "#008b801a",
+    "list.activeSelectionBackground": "#008b8033",
     "list.activeSelectionForeground": "#00e2b9",
     "tree.indentGuidesStroke": "#333333",
     "list.dropBackground": "#383b3d",
     "list.highlightForeground": "#00e2b9",
-    "list.focusBackground": "#008b801a",
+    "list.focusBackground": "#008b8033",
     "list.focusForeground": "#00e2b9",
     "listFilterWidget.background": "#111111",
     "listFilterWidget.outline": "#00000000",
     "listFilterWidget.noMatchesOutline": "#E21700",
     "statusBar.foreground": "#cccccc",
-    "statusBar.background": "#111111",
+    "statusBar.background": "#0e0e0e",
     "statusBar.border": "#1a1e2a",
     "statusBarItem.hoverBackground": "#ffffff1f",
     "statusBar.debuggingBackground": "#cc6633",
@@ -64,7 +64,7 @@
     "button.secondaryForeground": "#ffffff",
     "button.secondaryBackground": "#3a3d41",
     "button.secondaryHoverBackground": "#45494e",
-    "input.background": "#111111",
+    "input.background": "#0e0e0e",
     "input.border": "#1a1e2a",
     "input.foreground": "#cccccc",
     "inputOption.activeBackground": "#008b8066",
@@ -74,13 +74,13 @@
     "textLink.foreground": "#00e2b9",
     "editor.background": "#111111",
     "editor.foreground": "#d4d4d4",
-    "editorLineNumber.foreground": "#444444",
+    "editorLineNumber.foreground": "#606060",
     "editorCursor.foreground": "#00e2b9",
     "editorCursor.background": "#000000",
-    "editor.selectionBackground": "#00e2b933",
+    "editor.selectionBackground": "#00e2b944",
     "editor.inactiveSelectionBackground": "#3a3d41",
     "editorWhitespace.foreground": "#e3e4e229",
-    "editor.selectionHighlightBackground": "#00e2b915",
+    "editor.selectionHighlightBackground": "#00e2b920",
     "editor.selectionHighlightBorder": "#00e2b9",
     "editor.findMatchBackground": "#008b80",
     "editor.findMatchBorder": "#00e2b9",
@@ -93,12 +93,12 @@
     "editor.hoverHighlightBackground": "#264f7840",
     "editor.wordHighlightStrongBackground": "#00e2b933",
     "editor.wordHighlightBackground": "#575757b8",
-    "editor.lineHighlightBackground": "#ffffff0A",
+    "editor.lineHighlightBackground": "#ffffff0d",
     "editor.lineHighlightBorder": "#00000000",
-    "editorLineNumber.activeForeground": "#e7e7e7",
+    "editorLineNumber.activeForeground": "#ffffff",
     "editorLink.activeForeground": "#00e2b9",
-    "editorIndentGuide.background": "#333333",
-    "editorIndentGuide.activeBackground": "#008b80",
+    "editorIndentGuide.background1": "#333333",
+    "editorIndentGuide.activeBackground1": "#008b80",
     "editorRuler.foreground": "#5a5a5a",
     "editorBracketMatch.background": "#00e2b91a",
     "editorBracketMatch.border": "#00e2b9",
@@ -142,10 +142,10 @@
     "breadcrumb.foreground": "#cccccccc",
     "breadcrumb.focusForeground": "#00e2b9",
     "editorGroupHeader.tabsBackground": "#111111",
-    "tab.activeForeground": "#cccccc",
+    "tab.activeForeground": "#ffffff",
     "tab.border": "#111111",
     "tab.activeBackground": "#111111",
-    "tab.activeBorder": "#00e2b966",
+    "tab.activeBorder": "#00e2b9",
     "tab.activeBorderTop": "#00000000",
     "tab.inactiveBackground": "#111111",
     "tab.inactiveForeground": "#ffffff60",
@@ -298,7 +298,7 @@
     {
       "scope": ["string", "entity.name.tag"],
       "settings": {
-        "foreground": "#909090"
+        "foreground": "#b0b0b0"
       }
     },
     {
@@ -310,7 +310,8 @@
     {
       "scope": ["variable.parameter"],
       "settings": {
-        "foreground": "#cccccc"
+        "foreground": "#ffffff",
+        "fontStyle": "italic"
       }
     },
     {
@@ -344,7 +345,7 @@
         "punctuation"
       ],
       "settings": {
-        "foreground": "#666666"
+        "foreground": "#808080"
       }
     }
   ]

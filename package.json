@@ -2,9 +2,14 @@
   "name": "theme-bylazar-com",
   "displayName": "Lazar's Theme",
   "description": "The theme used by Lazar.",
-  "version": "0.0.1",
+  "publisher": "bylazar",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.106.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lazarcloud/my-vscode-theme"
   },
   "categories": [
     "Themes"
